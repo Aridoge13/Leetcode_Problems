@@ -13,3 +13,18 @@
 3. easy3.py: Richest Customer
     - You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
     - A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+
+4. easy4.py: Fizz Buzz
+    - Given an integer n, return a string array answer (1-indexed) where:
+        - answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+        - answer[i] == "Fizz" if i is divisible by 3.
+        - answer[i] == "Buzz" if i is divisible by 5.
+        - answer[i] == i (as a string) if none of the above conditions are true.
+
+5. easy5.py: Number of steps to reduce a number to 0
+    - Given an integer num, return the number of steps to reduce it to zero.
+    - In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+6. easy6.py: Middle of the linked list
+    - Given the head of a singly linked list, return the middle node of the linked list.
+    - If there are two middle nodes, return the second middle node.
