@@ -39,3 +39,10 @@
         - The node of a binary tree is a leaf if and only if it has no children.
         - The depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1.
         - The lowest common ancestor of a set S of nodes, is the node A with the largest depth such that every node in S is in the subtree with root A.
+
+9. easy8.py: Sum of all subset XOR totals
+    - The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.
+        - For example, the XOR total of the array [2,5,6] is 2 XOR 5 XOR 6 = 1.
+    - Given an array nums, return the sum of all XOR totals for every subset of nums. 
+    - Note: Subsets with the same elements should be counted multiple times.
+    - An array a is a subset of an array b if a can be obtained from b by deleting some (possibly zero) elements of b.
